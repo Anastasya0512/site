@@ -130,3 +130,7 @@ tr {
     border: 3px solid rgba(36, 65, 26, 0.593);
 }
 
+.collapse navbar-collapse{
+    background-color: red
+}
+
