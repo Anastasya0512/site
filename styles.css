@@ -2,12 +2,14 @@ body {
     background: url(image/background.png);
     font-family: 'Roboto Slab', "Arial", serif;
 }
+
 .navbar {
     height: 54px;
 }
 
 .container {
     background-color: #DDF3D3;
+    padding-bottom: 20px;
 }
 
 .btnS {
@@ -40,6 +42,7 @@ body {
     text-shadow: 0px 4px 4px #3C0E2F;
     color: black;
     font-size: 20pt;
+    padding-left: 50px;
 }
 
 .nav-linkH {
@@ -79,6 +82,7 @@ body {
 
 legendaryfish.container {
     background-color: #DDF3D3;
+    padding-bottom: 20px;
 }
 
 .heading2 {
@@ -91,46 +95,40 @@ legendaryfish.container {
     background-color: #DDF3D3;
     width: 550 px;
     height: 417px;
-    margin: 150px 450px;
-    border-radius: 5px;
+    margin: 20% 20%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;   
 }
 
 .form-name {
     padding-top: 25px;
     margin-left: 5px;
-    width: 540px;
+    width: 80%;
 }
-.form-name input{
-    margin-left: 5px;
-    width: 540px;
+
+.form-reg {
+    width: 80%;
+    margin: 0 auto;
 }
-.form-email {
-    margin-left: 5px;
-    width: 540px;
-}
-.form-password {
-    margin-left: 5px;
-    width: 540px;
-}
-.form-email input {
-    margin-left: 5px;
-    width: 540px;
-}
-.form-password input {
-    margin-left: 5px;
-    width: 540px;
-}
+
+.form-reg input {
+    width: 80%;
+    margin: 0 auto;
+ }
 .btnReg {
     background-color: #DDF3D3;
-    margin-left: 200px;
-    margin-top: 50px;
+    margin: 0 auto;
+    margin-top: 5%;
     border-radius: 5px;
 }
 tr {
     border: 3px solid rgba(36, 65, 26, 0.593);
 }
 
-.collapse navbar-collapse{
-    background-color: red
+
+.navbar-collapse{
+    background-color: #85B487 !important;
 }
 
