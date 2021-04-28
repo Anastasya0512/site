@@ -1,9 +1,6 @@
 let form = document.forms.formsearch;
-let but = document.getElementById('button');
-but.addEventListener('click', ser, false);
-
-function ser() {
-event.preventDefault();
+formsearch.addEventListener('submit', function(event) {
+    event.preventDefault();
 formData = new FormData(form);
     console.log(formData.get('textsearch'));
     swal.fire({
@@ -15,6 +12,6 @@ formData = new FormData(form);
         imageHeight: 300,
         imageAlt: 'Custom image',
        });
-}
+});
 
 
