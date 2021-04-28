@@ -13,5 +13,3 @@ formData = new FormData(form);
         imageAlt: 'Custom image',
        });
 });
-
-
