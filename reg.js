@@ -1,9 +1,6 @@
 let formReg = document.forms.formreg;
-let butReg = document.getElementById('buttonReg');
-butReg.addEventListener('click', reg, false);
-
-function reg() {
-event.preventDefault();
+formreg.addEventListener('submit', function(event) {
+    event.preventDefault();
 formData = new FormData(formReg);
 const values = [...formData.values()];
     console.log(values);
@@ -40,5 +37,5 @@ const values = [...formData.values()];
                 }
             }
         }
-    }
+    });
 
